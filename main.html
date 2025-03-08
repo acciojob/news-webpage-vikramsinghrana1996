@@ -1,16 +1,78 @@
 <!DOCTYPE html>
-
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Webpage</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #011e29;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .latest-news-section {
+            background-color: white;
+            width: 80%;
+            margin: 20px auto;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .latest-news-section h3 {
+            text-align: center;
+        }
+        .latest-news-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .latest-news-section li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .pictorial-news-section {
+            background-color: white;
+            width: 80%;
+            margin: 20px auto;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .pictorial-news-section img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <header class="header">
+        <h2>News Website</h2>
+    </header>
+    
+    <div class="latest-news-section">
+        <h3>Latest News</h3>
+        <ul>
+            <li>Breaking News: Market hits record high</li>
+            <li>Sports Update: Local team wins championship</li>
+            <li>Weather Alert: Heavy rain expected tomorrow</li>
+        </ul>
+    </div>
+    
+    <div class="pictorial-news-section">
+        <h3>Pictorial News</h3>
+        <img src="image_one.jpg" alt="News Image One">
+        <img src="image_two.jpg" alt="News Image Two">
+        <img src="image_three.jpg" alt="News Image Three">
+    </div>
 </body>
-
 </html>
+
+
